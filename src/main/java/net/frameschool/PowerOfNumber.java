@@ -7,11 +7,11 @@ package net.frameschool;
 public class PowerOfNumber {
 
     static private final String LOG_TAG = PowerOfNumber.class.getSimpleName();
+
     static double x = 3;
     static double n = -1;
 
     public static void main(String arg[]) {
-        System.out.println("LOG_TAG");
 
         System.out.println("power equals " + pow(x, n));
     }
